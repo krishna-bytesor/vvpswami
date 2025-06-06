@@ -31,8 +31,8 @@ class VideosCategoryPageWidget extends StatefulWidget {
 
 class _VideosCategoryPageWidgetState extends State<VideosCategoryPageWidget> {
   late VideosCategoryPageModel _model;
-  final String apiKey = 'AIzaSyBtRo-dtrCB7i_-NzuM2NDmWwzt-i3gElQ';
-  final String channelId = 'UCjrZAhLymD8iNXs8hKoND0A'; // replace with your channel ID
+  final String apiKey = 'AIzaSyCImpVsxUglXV7JvKZaw4YrZ8rIocrLp0I';
+  final String channelId = 'UCYGJyDsfSQ0pxNONBJbywew'; // replace with your channel ID
   List<Map<String, dynamic>> playlists = []; // list of playlists with info
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
